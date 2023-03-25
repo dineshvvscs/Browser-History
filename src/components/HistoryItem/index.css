@@ -1,0 +1,54 @@
+.listTopContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: -10px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+}
+.time {
+  text-align: left;
+}
+.titleName {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.historyImage {
+  width: 35px;
+}
+
+@media (max-width: 768px) {
+  .historyContainer {
+    width: 85%;
+  }
+}
+.historyContainer {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.imagesAndHistory {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.nameUrl {
+  width: 550px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.deleteContainer {
+  background-color: white;
+  border: none;
+  width: 40px;
+  margin-left: 20px;
+}
+.delete-button {
+  background-color: white;
+  border: none;
+}
